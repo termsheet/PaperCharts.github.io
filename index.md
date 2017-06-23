@@ -24,7 +24,7 @@ Use global variable graph to invoke all the functions.
 1) Bubble Chart
 
 this is the bubblechart function plots a static bubble chart with a constant radius bubble chart
-
+```
 Format :
 [
 	{
@@ -38,11 +38,11 @@ Format :
     .
     .
 ]
-
+```
 2) Bubble Chart Zoom
 
 this function plots a static bubble chart with a constant radius and zoomable parameter
-
+```
 Format : 
 [
 	{
@@ -56,11 +56,11 @@ Format :
     .
     .
 ]
-
+```
 3) Time line chart
 
 this function plots a static bubble chart with a constant radius and zoomable parameters,
-
+```
 Format : 
  {  "Skill development":{  
       "amount":2095630,
@@ -85,11 +85,11 @@ Format :
       .
       .
  }
-
+```
 4)heatMap
 
 this function plots a heat map using the above given parameters,
-
+```
 Format : 
 { "Market" : "Sector",
   "children" : [
@@ -105,11 +105,11 @@ Format :
   .]
 }
 
-
+```
 5)networkGraph
 
 this function plots a network of nodes of startups and their investors
-
+```
 Format : 
 [
   {
@@ -132,7 +132,7 @@ Format :
   .
   .
 ]
-
+```
 ```markdown
 Syntax highlighted code block
 
