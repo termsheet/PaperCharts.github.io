@@ -1,8 +1,5 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/termsheet/PaperCharts.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Welcome to chart.js
+Chart.js is simple javascript library bulit using d3.js which lets you scatterplots, heatmaps, and network plots by passing the json data(in a predefined format) and the required chart parameters(like axes, color, margins etc).
 
 ### Markdown
 
