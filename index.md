@@ -6,6 +6,18 @@ Use global variable graph to invoke all the functions.
 
 ![Image of set_canvas function](images/set_canvas.png)
 
+![Image of set_margin function](images/set_margin.png)
+
+![Image of bubbleChart function](images/bubbleChart.png)
+
+![Image of bubbleChartZoom function](images/bubbleChartZoom.png)
+
+![Image of timeChart function](images/timeChart.png)
+
+![Image of heatMap function](images/heatMap.png)
+
+![Image of networkGraph function](images/networkGraph.png)
+
 
 ```markdown
 Syntax highlighted code block
