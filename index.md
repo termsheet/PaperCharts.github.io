@@ -19,6 +19,120 @@ Use global variable graph to invoke all the functions.
 ![Image of networkGraph function](images/networkGraph.png)
 
 
+### JSON data formats required for the chart functions
+
+1) Bubble Chart
+
+this is the bubblechart function plots a static bubble chart with a constant radius bubble chart
+
+Format :
+[
+	{
+		"Market": "Used Goods Marketplace",
+		"Amount": "423225136",
+		"Last_Transaction_Date": "2016-07-23",
+		"Investment_Count": "14"
+	},
+    .
+    .
+    .
+    .
+]
+
+2) Bubble Chart Zoom
+
+this function plots a static bubble chart with a constant radius and zoomable parameter
+
+Format : 
+[
+	{
+		"Market": "Used Goods Marketplace",
+		"Amount": "423225136",
+		"Last_Transaction_Date": "2016-07-23",
+		"Investment_Count": "14"
+	},
+    .
+    .
+    .
+    .
+]
+
+3) Time line chart
+
+this function plots a static bubble chart with a constant radius and zoomable parameters,
+
+Format : 
+ {  "Skill development":{  
+      "amount":2095630,
+      "data":[  
+         {  
+            "brand_logo":null,
+            "brand":"TapChief",
+            "entity":"Pilani Experts Technology Labs Private Limited",
+            "amount":997815,
+            "photo":"",
+            "date":"2016-10-01",
+            "investor_name":"Radhakrishna Nalabothu"
+         },
+         .
+         .
+         .
+      ],
+    "name":"Skill development"
+   },
+      .
+      .
+      .
+      .
+ }
+
+4)heatMap
+
+this function plots a heat map using the above given parameters,
+
+Format : 
+{ "Market" : "Sector",
+  "children" : [
+  {
+    "Market": "Used Goods Marketplace",
+    "Amount": 423225136,
+    "Last_Transaction_Date": "2016-07-23",
+    "Investment_Count": 14
+  },
+  .
+  .
+  .
+  .]
+}
+
+
+5)networkGraph
+
+this function plots a network of nodes of startups and their investors
+
+Format : 
+[
+  {
+    "name": "Eko India Financial Services Private Limited",
+    "investors": [
+      {
+        "investments": 2,
+        "id": 5526,
+        "name": "Share India Commodity Brokers"
+      },
+      .
+      .
+      .
+      .
+    ],
+    "id": 4
+  },
+  .
+  .
+  .
+  .
+]
+
 ```markdown
 Syntax highlighted code block
 
@@ -36,13 +150,3 @@ Syntax highlighted code block
 
 [Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/termsheet/PaperCharts.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
