@@ -2,7 +2,9 @@
 Chart.js is simple javascript library bulit using d3.js which lets you scatterplots, heatmaps, and network plots by passing the json data(in a predefined format) and the required chart parameters(like axes, color, margins etc).
 
 ### Function definitions
+Use global variable graph to invoke all the functions.
 
+![Image of set_canvas function](images/set_canvas.png)
 
 
 ```markdown
