@@ -19,9 +19,9 @@ Use global variable 'graph' to invoke all the functions.
 ![Image of networkGraph function](images/networkGraph.png)
 
 
-### JSON data formats required for the chart functions
+## JSON data formats required for the chart functions
 
-1) Bubble Chart
+## 1) Bubble Chart
 
 this is the bubblechart function plots a static bubble chart with a constant radius bubble chart
 ```
@@ -39,7 +39,7 @@ Format :
     .
 ]
 ```
-2) Bubble Chart Zoom
+## 2) Bubble Chart Zoom
 
 this function plots a static bubble chart with a constant radius and zoomable parameter
 ```
@@ -57,7 +57,7 @@ Format :
     .
 ]
 ```
-3) Time line chart
+## 3) Timeline Chart
 
 this function plots a static bubble chart with a constant radius and zoomable parameters,
 ```
@@ -86,7 +86,7 @@ Format :
       .
  }
 ```
-4)heatMap
+## 4) Heat Map
 
 this function plots a heat map using the above given parameters,
 ```
@@ -106,7 +106,7 @@ Format :
 }
 
 ```
-5)networkGraph
+## 5) Network Graph
 
 this function plots a network of nodes of startups and their investors
 ```
