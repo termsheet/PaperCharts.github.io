@@ -1,9 +1,9 @@
 ## Welcome to chart.js
 Chart.js is simple javascript library bulit using d3.js which lets you scatterplots, heatmaps, and network plots by passing the json data(in a predefined format) and the required chart parameters(like axes, color, margins etc).
 
-### Markdown
+### Function definitions
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
 
 ```markdown
 Syntax highlighted code block
